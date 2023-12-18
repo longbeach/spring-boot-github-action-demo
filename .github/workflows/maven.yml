@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven (Celinio)
+name: Java CI with Maven (Celinio1)
 
 on:
   push:
