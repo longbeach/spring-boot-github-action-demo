@@ -3,7 +3,7 @@ package com.example.springbootgithubactiondemo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-// OK2
+// OK3
 @SpringBootApplication
 public class SpringBootGithubActionDemoApplication {
 
