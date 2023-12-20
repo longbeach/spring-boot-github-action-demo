@@ -53,7 +53,7 @@ jobs:
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/spring-boot-github-action-demo:latest
   deploy:
     needs: build
-    runs-on: [aws-ec2]
+    runs-on: [ec-aws-t2micro]
     steps:
       - name: Pull Image from docker hub
         run: sudo docker pull longbeach75/spring-boot-github-action-demo:latest
