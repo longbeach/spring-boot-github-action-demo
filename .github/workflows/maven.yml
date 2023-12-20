@@ -58,7 +58,7 @@ jobs:
       - name: Delete old container
         run: sudo docker rm -f spring-boot-app-container
       - name: Run Docker Image
-        run: sudo docker run -d -p 8080:8080 --name spring-boot-app-container longbeach75/spring-boot-github-action-demo
+        run: sudo docker run -d -p 80:80 --name spring-boot-app-container longbeach75/spring-boot-github-action-demo
 
 
         
